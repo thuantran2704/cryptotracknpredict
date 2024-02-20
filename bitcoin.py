@@ -13,7 +13,7 @@ params = {
     'convert': 'USD'
 }
 
-url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
+url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/historical'
 
 
 data = requests.get(url, params = params, headers = headers ).json()['data']
